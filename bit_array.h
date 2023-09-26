@@ -55,7 +55,6 @@ public:
     //происходит перераспределение памяти.
     void push_back(bool bit);
 
-
     //Битовые операции над массивами.
     //Работают только на массивах одинакового размера.
     //Обоснование реакции на параметр неверного размера входит в задачу.
@@ -68,7 +67,6 @@ public:
     BitArray& operator>>=(size_t n);
     BitArray operator<<(size_t n) const;
     BitArray operator>>(size_t n) const;
-
 
     //Устанавливает бит с индексом n в значение val.
     BitArray& set(size_t n, bool val = true);

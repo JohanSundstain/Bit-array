@@ -330,7 +330,6 @@ TEST(OperatorsTest, inv_test)
 
 int main(int argc, char **argv)
 {
-   
     ::testing::InitGoogleTest(&argc, argv);
     ::testing::InitGoogleMock(&argc, argv);
   
